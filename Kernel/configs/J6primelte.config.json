@@ -1,4 +1,4 @@
-
+no
 [
     {
         "kernelSource": {
@@ -36,7 +36,7 @@
         ],
         "enableCcache": true,
         "params": {
-            "ARCH": "arm32",
+            "ARCH": "arm",
             "CC": "clang",
             "externalCommands": {
                 "CLANG_TRIPLE": "aarch64-linux-gnu-",
