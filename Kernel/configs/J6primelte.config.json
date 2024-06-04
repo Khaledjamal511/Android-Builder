@@ -2,10 +2,10 @@
 [
     {
         "kernelSource": {
-            "name": "android_kernel_samsung_msm8917_64",
-            "repo": "https://github.com/galaxybuild-project/android_kernel_samsung_msm8917_64.git",
-            "branch": "3.18.120-A10",
-            "device": "3.18.120-A10",
+            "name": "android_kernel_samsung_msm8917",
+            "repo": "https://github.com/msm8917-dev/android_kernel_samsung_msm8917.git",
+            "branch": "lineage-17.1",
+            "device": "lineage-17.1",
             "defconfig": "j6primelte_defconfig"
         },
         "toolchains": [
