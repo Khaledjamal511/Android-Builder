@@ -10,25 +10,22 @@
         },
         "toolchains": [
             {
-                "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-                "branch": "lineage-20.0",
+                "repo": "https://kali.download/nethunter-images/toolchains/google_clang-10.0.4.tar.xz",
                 "name": "clang",
                 "binaryEnv": [
                     "bin"
                 ]
             },
             {
-                "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
-                "branch": "lineage-19.1",
-                "name": "aarch64",
+                "repo": "https://kali.download/nethunter-images/toolchains/google_aarch64-4.9.tar.xz",
+                "name": "aarch64-4.9",
                 "binaryEnv": [
                     "bin"
                 ]
             },
             {
-                "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
-                "branch": "lineage-19.1",
-                "name": "arm",
+                "repo": "https://kali.download/nethunter-images/toolchains/google_armhf-4.9.tar.xz",
+                "name": "armhf-4.9",
                 "binaryEnv": [
                     "bin"
                 ]
