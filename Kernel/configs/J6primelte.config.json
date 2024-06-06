@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "J6primelte",
       "repo": "https://github.com/msm8917-dev/android_kernel_samsung_msm8917.git",
-      "branch": "lineage-19.1",
+      "branch": "lineage-17.1",
       "device": "j6primelte",
       "defconfig": "j6primelte_defconfig"
     },
@@ -40,7 +40,19 @@
       "externalCommands": {
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
         "CROSS_COMPILE": "aarch64-linux-android-",
-        "CROSS_COMPILE_ARM32": "arm-linux-androideabi-"
+        "CROSS_COMPILE_ARM32": "arm-linux-androideabi-",
+        "LD": "ld.lld",
+        "AR": "llvm-ar",
+        "NM": "llvm-nm",
+        "OBJCOPY": "llvm-objcopy",
+        "OBJDUMP": "llvm-objdump",
+        "READELF": "llvm-readelf",
+        "OBJSIZE": "llvm-size",
+        "STRIP": "llvm-strip",
+        "LDGOLD": "aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "llvm-ar",
+        "LLVM_DIS": "llvm-dis",
+        "CONFIG_THINLTO": ""
       }
     },
     "AnyKernel3": {
