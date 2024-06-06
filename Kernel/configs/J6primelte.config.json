@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "J6primelte",
       "repo": "https://github.com/msm8917-dev/android_kernel_samsung_msm8917.git",
-      "branch": "lineage-17.1",
+      "branch": "lineage-19.1",
       "device": "j6primelte",
       "defconfig": "j6primelte_defconfig"
     },
@@ -35,7 +35,7 @@
     ],
     "enableCcache": true,
     "params": {
-      "ARCH": "arm",
+      "ARCH": "arm64",
       "CC": "clang",
       "externalCommands": {
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
